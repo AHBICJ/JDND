@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JDND.iml" filepath="$PROJECT_DIR$/.idea/JDND.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/Map and Set/Map and Set.iml" filepath="$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/Map and Set/Map and Set.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/binary search/binary search.iml" filepath="$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/binary search/binary search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/list/list.iml" filepath="$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/list/list.iml" />
       <module fileurl="file://$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/vowel only/vowel only.iml" filepath="$PROJECT_DIR$/exercises/Java Basics/Java Refresher Course/vowel only/vowel only.iml" />
     </modules>
   </component>
