@@ -10,6 +10,7 @@ class BinarySearchTest {
         int target = 11;
         int expect = 5;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 
     @org.junit.jupiter.api.Test
@@ -18,6 +19,7 @@ class BinarySearchTest {
         int target = 10;
         int expect = -1;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 
     @org.junit.jupiter.api.Test
@@ -26,6 +28,7 @@ class BinarySearchTest {
         int target = 1;
         int expect = 0;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 
     @org.junit.jupiter.api.Test
@@ -34,6 +37,7 @@ class BinarySearchTest {
         int target = 5;
         int expect = 4;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 
     @org.junit.jupiter.api.Test
@@ -42,6 +46,7 @@ class BinarySearchTest {
         int target = 5;
         int expect = -1;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 
     @org.junit.jupiter.api.Test
@@ -50,5 +55,6 @@ class BinarySearchTest {
         int target = 0;
         int expect = -1;
         Assertions.assertEquals(expect, BinarySearch.findTarget(arr, target));
+        Assertions.assertEquals(expect, BinarySearch.findTarget2(arr, target));
     }
 }
